@@ -186,7 +186,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Useful Links
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-mkr) from Creative Tim
+- [More products](https://www.creative-tim.com/examples?ref=readme-mkr) from Creative Tim
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
