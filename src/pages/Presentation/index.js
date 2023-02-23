@@ -1,4 +1,4 @@
-// @mui material components
+lf// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -50,7 +50,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-                We can recommend restaurants with your request.
+              We can recommend restaurants with your request.
             </MKTypography>
           </Grid>
         </Container>
@@ -65,7 +65,7 @@ function Presentation() {
           backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
-      >                                            
+      >
         <MKBox pt={18} pb={6}>
           {/* <Container> */}
           <MKInput type="search" label="insert keyword" value="" />
