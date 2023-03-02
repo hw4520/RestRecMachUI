@@ -1,11 +1,10 @@
-lf// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
+import Newsletter from "pages/Presentation/sections/";
 
 import DefaultFooter from "templates/Footers/DefaultFooter";
 
@@ -61,16 +60,10 @@ function Presentation() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
-          backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <MKBox pt={18} pb={6}>
-          {/* <Container> */}
-          <MKInput type="search" label="insert keyword" value="" />
-          {/* </Container> */}
-        </MKBox>
+        <Newsletter />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
