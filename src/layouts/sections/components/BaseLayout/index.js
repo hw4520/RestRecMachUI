@@ -68,7 +68,7 @@ function BaseLayout({ breadcrumb, title, children }) {
 
 // Typechecking props for the BaseLayout
 BaseLayout.propTypes = {
-  breadcrumb: PropTypes.arrayOf(PropTypes.object).isRequired,
+  breadcrumb: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
