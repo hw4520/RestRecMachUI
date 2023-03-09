@@ -4,7 +4,7 @@ import Card from "@mui/material/Card";
 
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import Newsletter from "pages/Presentation/sections/";
+import Newsletter from "pages/Presentation/sections/Newsletter";
 
 import DefaultFooter from "templates/Footers/DefaultFooter";
 
