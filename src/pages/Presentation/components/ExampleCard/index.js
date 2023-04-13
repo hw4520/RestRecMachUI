@@ -31,7 +31,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
       shadow="lg"
       minHeight="10rem"
       sx={{
-        overflow: "hidden",
+        overflow: "visible",
         transform: "perspective(999px) rotateX(0deg) translate3d(0, 0, 0)",
         transformOrigin: "50% 0",
         backfaceVisibility: "hidden",

@@ -39,7 +39,7 @@ function Newsletter() {
             </MKTypography>
             <Grid container spacing={1}>
               <Grid item xs={8}>
-                <MKInput type="text" label="가게명 입력" fullWidth />
+                <MKInput type="text" fullWidth placeholder="가게명을 입력해 주세요." />
               </Grid>
               <Grid item xs={4}>
                 <MKButton variant="gradient" color="info" sx={{ height: "100%" }}>

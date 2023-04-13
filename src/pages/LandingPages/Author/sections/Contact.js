@@ -37,7 +37,7 @@ function Contact() {
             borderRadius="xl"
             shadow="xl"
             mb={6}
-            sx={{ overflow: "hidden" }}
+            sx={{ overflow: "visible" }}
           >
             <Grid container spacing={2}>
               <Grid

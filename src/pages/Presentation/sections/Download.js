@@ -34,7 +34,7 @@ function Download() {
         bgColor="dark"
         position="relative"
         borderRadius="xl"
-        sx={{ overflow: "hidden" }}
+        sx={{ overflow: "visible" }}
       >
         <MKBox
           component="img"
