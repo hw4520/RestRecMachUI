@@ -23,6 +23,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
+import MKSelect from "components/MKSelect";
 
 // Images
 import macbook from "assets/images/macbook.png";
@@ -38,6 +39,9 @@ function Newsletter() {
               당신이 선호하는 맛집과 유사한 맛집들을 추천해 드립니다.
             </MKTypography>
             <Grid container spacing={1}>
+              <Grid item xs={10}>
+                <MKSelect />
+              </Grid>
               <Grid item xs={8}>
                 <MKInput type="text" fullWidth placeholder="가게명을 입력해 주세요." />
               </Grid>
