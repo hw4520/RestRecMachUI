@@ -60,7 +60,7 @@ function View({ children, code, title, height, ...rest }) {
       borderRadius="xl"
       shadow="lg"
       mb={12}
-      sx={{ overflow: "hidden" }}
+      sx={{ overflow: "visible" }}
       {...rest}
     >
       <MKBox
@@ -116,7 +116,7 @@ function View({ children, code, title, height, ...rest }) {
             height={height}
             maxHeight="40rem"
             borderRadius="xl"
-            sx={{ overflowX: "hidden", overflowY: "scroll" }}
+            sx={{ overflowX: "visible", overflowY: "scroll" }}
           >
             {children}
           </MKBox>
@@ -128,7 +128,7 @@ function View({ children, code, title, height, ...rest }) {
           position="relative"
           width="100%"
           borderRadius="xl"
-          sx={{ overflow: "hidden" }}
+          sx={{ overflow: "visible" }}
         >
           <CopyToClipboard text={code}>
             <MKButton
