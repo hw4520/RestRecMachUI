@@ -43,7 +43,21 @@ const TableComponent = () => {
       </tbody>
     </table>
   );
-  return <div>{tableContent}</div>;
+
+  // 메인으로 가는 버튼 클릭 핸들러
+  const handleGoBack = () => {
+    window.location.reload();
+  };
+
+  return (
+    <div>
+      {tableContent}
+      {/* 메인으로 가는 버튼 JSX */}
+      <button type="button" onClick={handleGoBack}>
+        메인으로 가기
+      </button>
+    </div>
+  );
 };
 
 export default TableComponent;
